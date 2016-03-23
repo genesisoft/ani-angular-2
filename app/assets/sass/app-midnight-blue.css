@@ -4446,7 +4446,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     margin-bottom: 10px;
     font-size: 36px; }
     .login-page h1 small {
-      color: rgba(255, 255, 255, 0.7); }
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 20px;
+      font-weight: 300; }
   .login-page .form-group {
     padding: 8px 0; }
     .login-page .form-group input::-webkit-input-placeholder {
@@ -4490,6 +4492,11 @@ a.bg-danger:focus, a.bg-danger:hover {
           text-align: center;
           font-size: 20px;
           color: rgba(255, 255, 255, 0.6); }
+        #sidebar .sidenav-outer .menu-body .nav li .logo {
+          padding: 15px;
+          display: block;
+          text-align: center;
+          margin-left: -5px; }
         #sidebar .sidenav-outer .menu-body .nav li a {
           transition: all .2s ease-in-out;
           display: block;
@@ -4501,7 +4508,6 @@ a.bg-danger:focus, a.bg-danger:hover {
             width: 50px;
             text-align: center;
             font-size: 20px;
-            border-right: 1px solid rgba(255, 255, 255, 0.2);
             transition: all .3s ease;
             line-height: 50px;
             vertical-align: middle; }
@@ -4515,7 +4521,6 @@ a.bg-danger:focus, a.bg-danger:hover {
           margin-left: 9px; }
           #sidebar .sidenav-outer .menu-body .nav li.expand ul.submenu li {
             border-top: 1px solid rgba(255, 255, 255, 0.2);
-            border-left: 1px solid rgba(255, 255, 255, 0.2);
             border-bottom: none;
             padding: 10px 15px; }
             #sidebar .sidenav-outer .menu-body .nav li.expand ul.submenu li a {
@@ -4611,3 +4616,26 @@ body {
     position: absolute;
     top: 47%;
     right: 30px; }
+
+.animate {
+  -webkit-animation: cssAnimation 0.456s 1 ease;
+  -moz-animation: cssAnimation 0.456s 1 ease;
+  -o-animation: cssAnimation 0.456s 1 ease; }
+
+@-webkit-keyframes cssAnimation {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.955) skew(0deg) translate(0px); }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); } }
+
+@-moz-keyframes cssAnimation {
+  from {
+    -moz-transform: rotate(0deg) scale(0.955) skew(0deg) translate(0px); }
+  to {
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); } }
+
+@-o-keyframes cssAnimation {
+  from {
+    -o-transform: rotate(0deg) scale(0.955) skew(0deg) translate(0px); }
+  to {
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); } }
