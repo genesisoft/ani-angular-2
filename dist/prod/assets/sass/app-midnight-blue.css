@@ -4521,7 +4521,7 @@ a.bg-danger:focus, a.bg-danger:hover {
           margin-left: 9px; }
           #sidebar .sidenav-outer .menu-body .nav li.expand ul.submenu li {
             border-bottom: none;
-            padding: 10px 15px; }
+            padding: 5px 15px 15px; }
             #sidebar .sidenav-outer .menu-body .nav li.expand ul.submenu li a {
               display: block; }
         #sidebar .sidenav-outer .menu-body .nav li:first-child {
