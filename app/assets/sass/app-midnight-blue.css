@@ -4520,11 +4520,12 @@ a.bg-danger:focus, a.bg-danger:hover {
           display: block !important;
           margin-left: 9px; }
           #sidebar .sidenav-outer .menu-body .nav li.expand ul.submenu li {
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
             border-bottom: none;
             padding: 10px 15px; }
             #sidebar .sidenav-outer .menu-body .nav li.expand ul.submenu li a {
               display: block; }
+        #sidebar .sidenav-outer .menu-body .nav li:first-child {
+          border-bottom: none; }
 
 @media screen and (max-width: 768px) {
   #sidebar {

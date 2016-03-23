@@ -63,7 +63,6 @@
 							display: block !important;
 							margin-left: 9px;
 							li {
-								border-top: 1px solid rgba(255, 255, 255, 0.2);
 								border-bottom: none;
 								padding: 10px 15px;
 								a {
@@ -71,6 +70,9 @@
 								}
 							}
 						}
+					}
+					&:first-child {
+						border-bottom: none;
 					}
 				}
 			}
