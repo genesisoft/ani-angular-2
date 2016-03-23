@@ -4,7 +4,7 @@ This project is a part of the famous ANI Theme [Ani Theme v2.0](http://www.strap
 
 Powered by [StartAngular](http://startangular.com/) & [StrapUI](http://strapui.com/)
 
-##[Demo](http://rawgit.com/start-angular/ani-angular-2/master/dist/prod/index.html/)
+##[Demo](http://rawgit.com/start-angular/ani-angular-2/master/dist/prod/index.html)
 
 `Ani Angular2` provides the following features:
 
